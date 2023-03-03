@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 exec app/bin/server &
-exec google-chrome app/build/index.html
+exec xdg-open app/build/index.html
